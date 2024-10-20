@@ -1,4 +1,5 @@
 #Task 04 A SIMPLE KEYLOGGER
+
 A simple keylogger is a type of software or hardware designed to record keystrokes made on a keyboard. It captures information such as passwords, messages, and other sensitive data without the user’s consent. Keyloggers can be used for various purposes, including:
 Monitoring: Employers might use them to monitor employee activity on company devices.
 Parental Control: Parents may use keyloggers to monitor their children's online activities.
