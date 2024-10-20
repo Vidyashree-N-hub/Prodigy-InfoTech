@@ -1,17 +1,31 @@
 #Task 3 Password Complexity Checker
 
-This Python program evaluates the strength of a password based on several criteria, offering users feedback on how secure their passwords are. The tool provides tips for creating strong passwords and ensures that users understand the importance of various password components.
+A password complexity checker is a tool or feature that evaluates the strength of a password based on certain criteria. It helps users create strong passwords that are less susceptible to attacks, such as brute force or dictionary attacks. Here are the main aspects of a password complexity checker:
 
-Features
+Key Features
+Length Requirement:
 
-Password Strength Assessment: The tool checks for length, presence of uppercase and lowercase letters, numbers, and special characters in the password.
-Feedback on Password Strength: Users receive a message indicating whether their password is very strong, strong, moderate, or weak.
-Password Masking: For privacy, the tool masks the password input before displaying it.
-Security Tips: The program provides tips for creating secure passwords and maintaining good password hygiene.
-Usage
+Enforces a minimum password length (commonly at least 8 characters).
+Encourages longer passwords for added security.
+Character Variety:
 
-Run the Program: Execute the script to start the Password Complexity Checking Tool.
-Read Tips: Review the provided tips for creating a secure password.
-Enter Password: Input the password you wish to check.
-View Feedback: The program will display the masked password and provide feedback on its strength.
-This code was developed as part of my internship at The Prodigy Infotech, demonstrating a practical approach to assessing password strength and educating users on creating secure passwords.
+Checks for the inclusion of different character types:
+Uppercase letters (A-Z)
+Lowercase letters (a-z)
+Numbers (0-9)
+Special characters (e.g., @, #, $, %)
+Common Patterns:
+
+Identifies and discourages common passwords or easily guessable patterns (like "password," "123456," or keyboard patterns like "qwerty").
+Dictionary Checks:
+
+Compares the password against a list of common words or phrases to prevent the use of easily guessable passwords.
+Entropy Calculation:
+
+Estimates the randomness or unpredictability of a password, often measured in bits. Higher entropy indicates a stronger password.
+User Feedback:
+
+Provides real-time feedback as users create their passwords, indicating whether the password is strong, medium, or weak.
+Breach Check:
+
+Some checkers can verify if a password has previously been compromised in data breaches by cross-referencing against known leaked passwords.
